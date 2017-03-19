@@ -1,0 +1,265 @@
+body {
+    overflow-x: hidden;
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+}
+
+.main-heading {
+    font-size: 110px;
+    margin-top: 10px;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.head-link {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px; 
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
+.head-link-2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px; 
+    font-weight: bold;
+
+}
+
+.main-para {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.admin-but {
+      font-family: 'Josefin Slab', serif;
+    font-size: 20px;  
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid blue; 
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+
+.region-para {
+      font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.citation-para {
+          font-family: 'Josefin Slab', serif;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.main-img {
+    border-radius: 8px;
+}
+
+
+.search-main {
+    width: 200px; height: 50px; border-radius: 8px; border: 2px solid #ddd; font-family: georgia; padding-left: 10px; font-size: 17px; color: black;
+}
+
+.input-general {
+    border-radius: 5px; border: 2px solid #ddd; font-family: georgia; padding-left: 30px; font-size: 20px; color: black;  
+}
+
+
+.form-heading {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;  
+    font-weight: bolder;
+}
+
+
+
+.alert {
+     font-family: 'Josefin Slab', serif ! important; font-weight: bolder;
+}
+
+
+
+.submit-but {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+                          padding-top: 7px; padding-bottom: 7px; padding-left: 15px; padding-right: 15px; border-radius: 5px;
+                          font-family: 'Josefin Slab', serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; font-weight: bolder;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.hide-text {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.input-block-level {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn-file {
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+
+.btn-file>input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px,0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.fileupload {
+    margin-bottom: 9px;
+}
+
+.fileupload .uneditable-input {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    cursor: text;
+}
+
+.fileupload .thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fileupload .thumbnail>img {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 100%;
+}
+
+.fileupload .btn {
+    vertical-align: middle;
+}
+
+.fileupload-exists .fileupload-new,.fileupload-new .fileupload-exists {
+    display: none;
+}
+
+.fileupload-inline .fileupload-controls {
+    display: inline;
+}
+
+.fileupload-new .input-append .btn-file {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.thumbnail-borderless .thumbnail {
+    border: none;
+    padding: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fileupload-new.thumbnail-borderless .thumbnail {
+    border: 1px solid #ddd;
+}
+
+.control-group.warning .fileupload .uneditable-input {
+    color: #a47e3c;
+    border-color: #a47e3c;
+}
+
+.control-group.warning .fileupload .fileupload-preview {
+    color: #a47e3c;
+}
+
+.control-group.warning .fileupload .thumbnail {
+    border-color: #a47e3c;
+}
+
+.control-group.error .fileupload .uneditable-input {
+    color: #b94a48;
+    border-color: #b94a48;
+}
+
+.control-group.error .fileupload .fileupload-preview {
+    color: #b94a48;
+}
+
+.control-group.error .fileupload .thumbnail {
+    border-color: #b94a48;
+}
+
+.control-group.success .fileupload .uneditable-input {
+    color: #468847;
+    border-color: #468847;
+}
+
+.control-group.success .fileupload .fileupload-preview {
+    color: #468847;
+}
+
+.control-group.success .fileupload .thumbnail {
+    border-color: #468847;
+}
